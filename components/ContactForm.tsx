@@ -11,7 +11,7 @@ import {
 import { useForm, Controller } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import serviceData from "../Data/serviceData.json";
+import serviceData from "@/data/serviceData.json";
 
 const { services } = serviceData;
 
@@ -174,8 +174,8 @@ Selected Services: ${data.selectedServices.join(", ")}
             errorMessage={errors.selectedServices?.message}
           >
             {services.map((service, index) => (
-              <Checkbox key={index} value={service} color="primary">
-                {service}
+              <Checkbox key={index} value={service.title} color="primary">
+                {service.title}
               </Checkbox>
             ))}
           </CheckboxGroup>

@@ -1,4 +1,4 @@
-import testimonialData from "../Data/testimonialData.json";
+import testimonialData from "@/data/testimonialData.json";
 import TestimonialCard from "@/components/TestimonialCard";
 
 export default function HomePage() {
