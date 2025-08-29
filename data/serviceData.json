@@ -1,0 +1,57 @@
+{
+  "services": [
+    {
+      "title": "Mowing",
+      "description": "Keep your lawn healthy and neat with regular, precision mowing."
+    },
+    {
+      "title": "Edging",
+      "description": "Clean, sharp edges around driveways, sidewalks, and flower beds."
+    },
+    {
+      "title": "Mulch or Stone Installation",
+      "description": "Enhance curb appeal and protect plants with fresh mulch or decorative stone."
+    },
+    {
+      "title": "Weed Control",
+      "description": "Prevent and remove weeds to keep your landscape thriving."
+    },
+    {
+      "title": "Hedge Trimming",
+      "description": "Maintain shape and promote healthy growth for hedges and shrubs."
+    },
+    {
+      "title": "Seasonal Cleanups",
+      "description": "Spring and fall cleanups to prepare your yard for the season ahead."
+    },
+    {
+      "title": "Leaf Raking/Removal",
+      "description": "Efficient removal of fallen leaves to protect your lawn."
+    },
+    {
+      "title": "Dethatching",
+      "description": "Remove excess thatch buildup to improve soil and root health."
+    },
+    {
+      "title": "Flowers and Shrubs",
+      "description": "Planting and care for vibrant flowers and healthy shrubs."
+    },
+    {
+      "title": "Fertilization",
+      "description": "Nourish your lawn with treatments for strong, lasting growth."
+    },
+    {
+      "title": "Snow Removal",
+      "description": "Reliable snow and ice clearing for driveways and walkways."
+    },
+    {
+      "title": "Garden Bed Cleanup",
+      "description": "Refresh and maintain garden beds with professional cleanup."
+    },
+    {
+      "title": "Flowerbed Installation and Removal",
+      "description": "Full-service bed installation, tear-outs, and site restoration."
+    }
+  ],
+  "serviceArea": "We proudly serve State College, Bellefonte, Boalsburg, and surrounding areas in Centre County, PA."
+}

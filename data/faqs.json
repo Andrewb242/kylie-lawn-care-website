@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "q": "Do you offer one time services?",
+      "a": "Yes, whether you need a one time cleanup or regular weekly maintenance, we can create a plan that fits your needs"
+    },
+    {
+      "q": "What areas do you serve?",
+      "a": "We currently serve Centre County, Clinton County and Mifflin County. If you are unsure if you are in our service area, feel free to reach out."
+    },
+    {
+      "q": "What is your pricing structure?",
+      "a": "Our pricing is based on the specific services you require and the size of your property. We offer free estimates to give you a clear idea of the costs involved."
+    }
+  ]
+}
