@@ -1,54 +1,7 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Wayfare Pet Care",
+  name: "Auman's Landscaping and Services LLC",
   description:
-    "Your trusted partner in pet care, offering personalized services for your furry friends.",
-  navItems: [
-    {
-      label: "Home",
-      href: "/",
-    },
-  ],
-  navMenuItems: [
-    {
-      label: "Profile",
-      href: "/profile",
-    },
-    {
-      label: "Dashboard",
-      href: "/dashboard",
-    },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
-  ],
-  links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
-  },
+    "Centre County's trusted partner in landscaping and outdoor services, dedicated to enhancing the beauty and functionality of your outdoor spaces. Based in Central Pennsylvania, we pride ourselves on our commitment to quality and customer satisfaction.",
 };

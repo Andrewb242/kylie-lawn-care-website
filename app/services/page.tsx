@@ -49,34 +49,30 @@ export default function ServicesPage() {
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
-          {/* FAQ Section */}
-          <div className="container mx-auto ">
-            <h2 className="text-3xl font-bold mb-4">
-              Frequently Asked Questions
-            </h2>
-            <div className="space-y-4">
-              {questions.map((item, index) => (
-                <div
-                  className="bg-background-50 p-4 rounded shadow-sm"
-                  key={index}
-                >
-                  <h3 className="font-semibold">{item.q}</h3>
-                  <p className="text-forground font-light">{item.a}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          {/* CTA Section */}
-          <Link href="/contact" className="block">
-            <div className="bg-primary-50 p-6 rounded text-center space-y-2 cursor-pointer hover:bg-primary-100 transition-colors">
-              <h2 className="text-2xl font-bold">Get in Touch</h2>
-              <p className="text-foreground font-light">
-                Contact us today to schedule your free quote!
-              </p>
-            </div>
-          </Link>
         </div>
       </div>
+
+      {/* FAQ Section */}
+      <div className="container mx-auto ">
+        <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
+        <div className="space-y-4">
+          {questions.map((item, index) => (
+            <div className="bg-background-50 p-4 rounded shadow-sm" key={index}>
+              <h3 className="font-semibold">{item.q}</h3>
+              <p className="text-forground font-light">{item.a}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* CTA Section */}
+      <Link href="/contact" className="block">
+        <div className="bg-primary-50 p-6 rounded text-center space-y-2 cursor-pointer hover:bg-primary-100 transition-colors">
+          <h2 className="text-2xl font-bold">Get in Touch</h2>
+          <p className="text-foreground font-light">
+            Contact us today to schedule your free quote!
+          </p>
+        </div>
+      </Link>
     </div>
   );
 }

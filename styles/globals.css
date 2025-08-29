@@ -7,15 +7,19 @@
 @config "../tailwind.config.js";
 
 h1 {
-  @apply text-3xl font-bold mb-4;
+  @apply text-3xl font-bold mb-4 font-sans;
 }
 
 h2 {
-  @apply text-2xl font-semibold mb-3;
+  @apply text-2xl font-semibold mb-3 font-sans;
+}
+
+h3 {
+  @apply text-xl font-semibold mb-2 font-sans;
 }
 
 p {
-  @apply text-base mb-2;
+  @apply text-base mb-2 font-sans;
 }
 
 a {

@@ -1,5 +1,8 @@
 import testimonialData from "@/data/testimonialData.json";
 import TestimonialCard from "@/components/TestimonialCard";
+import Link from "next/link";
+import { Button } from "@heroui/button";
+import { Divider } from "@heroui/react";
 
 export default function HomePage() {
   const { testimonials } = testimonialData;
@@ -8,29 +11,47 @@ export default function HomePage() {
     <div className="space-y-16">
       {/* Cover Photo / Hero Section */}
       <div className="relative h-96 flex items-center justify-center overflow-hidden">
-        {/* Blurred background */}
-        <div className="absolute inset-0 bg-cover bg-center bg-[url('/hero-cover.jpg')] filter blur-sm scale-100" />
+        <div className="absolute inset-0 bg-cover bg-center bg-[url('/hero-cover.jpg')] filter blur-sm scale-100 brightness-80" />
 
         {/* Content */}
-        <h1 className="relative text-4xl md:text-5xl font-bold text-white text-center px-4">
-          <span className="text-5xl md:text-5xl text-shadow-2xs">
-            Precision Landscaping.
+        <h1 className="relative font-bold text-white text-center px-4">
+          <span className="text-2xl md:text-5xl text-shadow-2xs">
+            Auman's Landscaping and Services LLC
+            <br />
           </span>{" "}
-          <span className="text-4xl md:text-5xl text-shadow-2xs">
-            Lasting Beauty.
+          <span className="text-xl md:text-4xl text-shadow-2xs">
+            Precision Landscaping. Lasting Beauty.
           </span>
         </h1>
       </div>
 
       {/* About Us Section */}
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold mb-4">About Us</h2>
-        <p className="text-gray-700">
-          S&A Lawncare provides professional landscaping services to make your
-          outdoor space beautiful and sustainable. From routine maintenance to
-          large-scale projects, our team ensures quality and precision in every
-          job.
+        <h2 className="text-3xl font-bold mb-4 text-center">
+          Who We Are at a Glance
+        </h2>
+        <p className="text-foreground">
+          At Auman's Landscaping and Services LLC, we’ve been proudly serving
+          our community for over three years with reliable, year-round service.
+          From mowing and maintenance to full yard cleanups and snow removal,
+          we’re here to keep your outdoor space looking its best in every
+          season.
         </p>
+        <div className="space-x-4 text-center md:text-right">
+          <Button
+            as={Link}
+            color="primary"
+            variant="bordered"
+            href="/about"
+            className="mt-4"
+          >
+            Learn more about us
+          </Button>
+          <Button as={Link} color="primary" href="/contact" className="mt-4">
+            Get in Touch
+          </Button>
+        </div>
+        <Divider className="mt-5" />
       </div>
 
       {/* Testimonials Section */}

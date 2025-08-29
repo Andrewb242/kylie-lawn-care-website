@@ -24,10 +24,10 @@ export default function Footer() {
               </Link>
             </p>
 
-            <p className="text-sm text-foreground font-thin">
-              &copy; {new Date().getFullYear()} S&A Lawncare. All rights
-              reserved.
-            </p>
+            <span className="text-sm text-foreground font-thin">
+              &copy; {new Date().getFullYear()} Auman's Landscaping and Services
+              LLC. All rights reserved.
+            </span>
           </CardBody>
         </Card>
       </div>

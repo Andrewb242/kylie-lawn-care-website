@@ -1,16 +1,36 @@
 {
   "questions": [
     {
-      "q": "Do you offer one time services?",
-      "a": "Yes, whether you need a one time cleanup or regular weekly maintenance, we can create a plan that fits your needs"
+      "q": "Do I Need Weekly or Bi-Weekly Lawn Service?",
+      "a": "During the early spring and summer months, we recommend weekly mowing to keep up with rapid growth. As the weather gets hotter and rainfall slows down, we adjust mowing frequency based on what your lawn actually needs. We never want to stress or damage your grass—if it doesn’t need a cut, we won’t cut it."
     },
     {
-      "q": "What areas do you serve?",
-      "a": "We currently serve Centre County, and certain areas in Clinton County and Mifflin County. If you are unsure if you are in our service area, feel free to reach out."
+      "q": "How Can We Pay?",
+      "a": "We accept cash, check, or Venmo—whatever is easiest for you!"
     },
     {
-      "q": "What is your pricing structure?",
-      "a": "Our pricing is based on the specific services you require and the size of your property. We offer free estimates to give you a clear idea of the costs involved."
+      "q": "Do I Need to Be Home for a Quote or for You to Do the Work?",
+      "a": "Not at all. We can provide quotes and complete services while you're away. Just let us know your preferences—we’re happy to accommodate your schedule and comfort level."
+    },
+    {
+      "q": "When Should I Schedule Snow Removal Services?",
+      "a": "You can request snow removal anytime to get on our list. We don’t use a waiting list—if we’re at capacity, we’ll let you know right away so you can make other arrangements without being left in the dark."
+    },
+    {
+      "q": "What If I Live Outside of Your Service Area?",
+      "a": "We primarily serve Central PA, including Lock Haven, Mill Hall, and nearby areas—but if you're a little outside that range, reach out anyway! We’re always open to discussing options and figuring out if we can make it work."
+    },
+    {
+      "q": "What Services Do You Offer Year-Round?",
+      "a": "We offer seasonal cleanups, mowing, trimming, mulching, and snow removal throughout the year. We’re available in every season to help keep your property clean, safe, and beautiful—no matter the weather."
+    },
+    {
+      "q": "What If I'm Looking for a Service That Isn’t Listed on Your Website?",
+      "a": "Great question! If you have a project in mind that’s not listed, reach out to us anyway. We’re more than willing to talk it through, take a look, and let you know if it’s something we can help with—or point you in the right direction if not. We’re here to make your life easier however we can."
+    },
+    {
+      "q": "Are You Insured?",
+      "a": "Yes, we are fully insured to protect both our team and your property."
     }
   ]
 }

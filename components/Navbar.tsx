@@ -20,6 +20,7 @@ export default function AppNavbar() {
 
   const links = [
     { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
     { label: "Gallery", href: "/gallery" },
     { label: "Services", href: "/services" },
   ];
