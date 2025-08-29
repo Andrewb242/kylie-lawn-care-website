@@ -12,7 +12,7 @@ export default function ContactPage() {
         </p>
       </div>
       {/* Form */}
-      <div className="max-w-lg mx-auto mb-10">
+      <div className="max-w-lg mx-auto mb-10 bg-background-100 rounded-lg p-4 shadow-sm">
         <ContactForm />
       </div>
     </div>

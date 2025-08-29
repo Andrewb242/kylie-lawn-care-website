@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "next.config.js",
-    "theme.config.js"
+    "theme.config.js",
+    "components/ServiceAreaMap.jsx"
   ],
   "exclude": ["node_modules"]
 }

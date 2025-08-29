@@ -40,8 +40,14 @@ export default function ServicesPage() {
               <p className="text-foreground font-medium">{serviceArea}</p>
             </div>
           )}
-          <div className="bg-gray-100 h-64 flex items-center justify-center rounded shadow-sm">
-            <p className="text-gray-400">Map Placeholder</p>
+          <div className="bg-background-100 h-64 flex items-center justify-center rounded shadow-sm">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771181.5313111485!2d-77.76038990000004!3d40.97211110000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ce9afae03ba819%3A0xe9305b782a439601!2sCentre%20County%2C%20PA!5e0!3m2!1sen!2sus!4v1756487027910!5m2!1sen!2sus"
+              className="w-full h-full"
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
           {/* FAQ Section */}
           <div className="container mx-auto ">
@@ -55,7 +61,7 @@ export default function ServicesPage() {
                   key={index}
                 >
                   <h3 className="font-semibold">{item.q}</h3>
-                  <p className="text-forground font-medium">{item.a}</p>
+                  <p className="text-forground font-light">{item.a}</p>
                 </div>
               ))}
             </div>
