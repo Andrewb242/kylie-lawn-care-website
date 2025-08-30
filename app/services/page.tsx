@@ -23,7 +23,7 @@ export default function ServicesPage() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-background-100 p-4 rounded shadow-sm"
+                className="bg-background-100 p-4 rounded shadow-sm hover:scale-105 transition-transform"
               >
                 <h3 className="font-semibold">{service.title}</h3>
                 <p className="font-light">

@@ -59,16 +59,12 @@ export default function AboutPage() {
       <Divider />
 
       {/* Image Transition */}
-
-      <div className="relative h-[100px] md:h-[200px] my-8">
-        <div
-          className="absolute left-0 right-0 w-screen h-full"
-          style={{ left: "50%", transform: "translateX(-50%)" }}
-        >
+      <div className="relative h-[200px] my-8">
+        <div className="absolute inset-0 w-screen left-1/2 -translate-x-1/2">
           <img
             src="/about-us.jpg"
             alt="About Us"
-            className="w-full h-full object-cover brightness-80"
+            className="w-full h-full object-cover"
           />
         </div>
       </div>
@@ -126,7 +122,9 @@ interface ValueCardProps {
 
 function ValueCard({ title, icon, children }: ValueCardProps) {
   return (
-    <div className="p-4 bg-background-50 rounded-xl shadow-sm ">
+    <div
+      className={`p-4 bg-background-50 rounded-xl shadow-sm hover:scale-105 transition-transform`}
+    >
       <div className="flex justify-between">
         <h3>{title}</h3>
         {icon && (
