@@ -10,16 +10,16 @@ export default function HomePage() {
   return (
     <div className="space-y-16">
       {/* Cover Photo / Hero Section */}
-      <div className="relative h-96 flex items-center justify-center overflow-hidden">
+      <div className="relative h-56 md:h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center bg-[url('/hero-cover.jpg')] filter blur-sm scale-100 brightness-80" />
 
         {/* Content */}
         <h1 className="relative font-bold text-white text-center px-4">
-          <span className="text-2xl md:text-5xl text-shadow-2xs">
+          <span className="text-lg md:text-5xl text-shadow-2xs">
             Auman's Landscaping and Services LLC
             <br />
           </span>{" "}
-          <span className="text-xl md:text-4xl text-shadow-2xs">
+          <span className="text-sm md:text-4xl text-shadow-2xs">
             Precision Landscaping. Lasting Beauty.
           </span>
         </h1>

@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <Card className="bg-background-300 border-none shadow-none">
           <CardBody className="flex flex-col items-center space-y-3 text-center">
-            <h3 className="text-xl font-semibold">
-              S&A Lawncare and Services LLC
-            </h3>
+            <span className="font-semibold text-lg">
+              Auman's Landscaping and Services LLC
+            </span>
 
             <p>
               Phone: <Link href="tel:8144413179">814-441-3179</Link>

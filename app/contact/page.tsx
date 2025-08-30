@@ -1,16 +1,14 @@
 import ContactForm from "@/components/ContactForm";
+import Header from "@/components/Header";
 
 export default function ContactPage() {
   return (
     <div className="container mx-auto px-4 py-10">
       {/* Header */}
-      <div className="text-center mb-10">
-        <h1 className="font-bold text-secondary ">Contact Us</h1>
-        <p className="w-xs mx-auto">
-          Submit and application and we will reach out to you to schedule a free
-          quote!
-        </p>
-      </div>
+      <Header
+        title="Contact Us"
+        subtitle="Submit an application and we will reach out to you to schedule a free quote!"
+      />
       {/* Form */}
       <div className="max-w-lg mx-auto mb-10 bg-background-100 rounded-lg p-4 shadow-sm">
         <ContactForm />
