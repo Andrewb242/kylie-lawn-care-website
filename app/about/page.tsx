@@ -4,6 +4,7 @@ import { GoChecklist } from "react-icons/go";
 import { PiHandshakeLight } from "react-icons/pi";
 import { FiHeart } from "react-icons/fi";
 import Header from "@/components/Header";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -73,12 +74,15 @@ export default function AboutPage() {
 
       {/* Values List */}
       <div className="mt-7">
-        <div className="mx-auto max-w-xl">
-          <h2 className="text-center">Our Mission & Values</h2>
-          <p className="text-center">
-            We’re grounded in values that guide every job we take on.
+        <div className="mx-auto max-w-2xl lg:max-w-screen">
+          <h2 className="">Our Mission & Values</h2>
+          <p className="">
+            We’re grounded in values that guide every job we take on. Whether
+            we’re mowing your lawn or helping clean up after a storm, you can
+            count on us to work hard, communicate clearly, and always put your
+            satisfaction first.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-8 gap-4 py-10">
             <ValueCard
               title="Reliability"
               icon={<GrSchedules height={28} width={28} />}
@@ -103,12 +107,19 @@ export default function AboutPage() {
               For your time, your property, and your trust in us.
             </ValueCard>
           </div>
-          <p className="mt-3 text-center">
-            Whether we’re mowing your lawn or helping clean up after a storm,
-            you can count on us to work hard, communicate clearly, and always
-            put your satisfaction first.
-          </p>
         </div>
+        <Divider className="mb-8" />
+        {/* CTA Section */}
+        <Link href="/contact" className="block">
+          <div className="bg-primary-100 p-6 rounded text-center space-y-2 cursor-pointer hover:bg-primary-50 transition-colors">
+            <h2 className="text-2xl font-bold">
+              Experience Our Values in Action
+            </h2>
+            <p className="text-foreground font-light">
+              Contact us today to schedule your free quote!
+            </p>
+          </div>
+        </Link>
       </div>
     </div>
   );
